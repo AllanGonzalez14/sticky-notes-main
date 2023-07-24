@@ -1,0 +1,50 @@
+body {
+    background-color: silver;
+};
+
+
+#Centradito {
+    padding: 20px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+#Prioritaria {
+    background-image: url(/img/notita-roja.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    background-clip: padding-box;
+}
+
+#Normal {
+    background-image: url(/img/notita-amarilla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.col {
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+#entitled {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
